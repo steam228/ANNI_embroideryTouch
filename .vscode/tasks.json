@@ -1,0 +1,21 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Processing: Run sketch",
+      "detail": "Runs the Processing sketch of the open .pde file",
+      "type": "shell",
+      "command": "/Applications/Processing.app/Contents/MacOS/Processing",
+      "args": [
+        "cli",
+        "--sketch=${fileDirname}",
+        "--output=${fileDirname}/.build",
+        "--force",
+        "--run"
+      ],
+      "group": { "kind": "build", "isDefault": true },
+      "presentation": { "reveal": "always", "panel": "dedicated", "clear": true },
+      "problemMatcher": []
+    }
+  ]
+}

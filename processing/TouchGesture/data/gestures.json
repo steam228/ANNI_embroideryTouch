@@ -1,0 +1,13 @@
+{
+  "bins": 32,
+  "names": [
+    "Gesture A",
+    "Gesture B",
+    "Gesture C",
+    "Gesture D",
+    "Gesture E",
+    "Gesture F"
+  ],
+  "templates": [],
+  "threshold": 0.4833333194255829
+}
